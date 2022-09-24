@@ -1,0 +1,220 @@
+* {
+    /* margin: 0px; */
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    background-color: silver;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.4;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+ul li a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.div1 {
+    background-image: url(../qnutyun2/img/img1.jpg);
+    width: 100%;
+    height: 555px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    left: 550px;
+    top: 300px;
+}
+
+.h2 {
+    position: absolute;
+    color: red;
+    font-size: 28px;
+    left: 570px;
+    top: 388px;
+}
+
+.h4 {
+    position: absolute;
+    color: red;
+    font-size: 18px;
+    left: 632px;
+    top: 447px;
+}
+
+.div2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.div3>img {
+    width: 1060px;
+    height: 460px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+p {
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.wed {
+    display: flex;
+    justify-content: center;
+}
+
+.wedding {
+    background-color: black;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.img3 {
+    background-image: url(../qnutyun2/img/img3.jpg);
+    width: 100%;
+    height: 555px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h11 {
+    font-size: 50px;
+    color: white;
+    margin-top: 132px;
+}
+
+.h5 {
+    font-size: 20px;
+    color: white;
+    margin-top: 267px;
+    margin-left: -215px
+}
+
+.weddingg {
+    text-align: center;
+    color: silver;
+    font-size: 30px;
+}
+
+.img4 {
+    width: 1060px;
+    height: 460px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.ww {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top {
+    font-size: 40px;
+}
+
+.w1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.top1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.rr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.r1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.r2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.r3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .div1 {
+        height: 275px;
+    }
+    .h1 {
+        font-size: 30px;
+        left: 161px;
+        top: 129px;
+    }
+    .h2 {
+        font-size: 20px;
+        left: 161px;
+        top: 165px;
+    }
+    .h4 {
+        font-size: 16px;
+        left: 202px;
+        top: 200px;
+    }
+    .div3>img{
+        width: 406px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img3{
+        height: 275px;
+    }
+    .h11{
+        font-size: 20px;
+    }
+    .img4{
+        height: 275px;
+        width: 406px;
+        margin-left: 20px;
+    }
+    .top1{
+        font-size: 20px;
+    }
+    .r2{
+        font-size: 20px;
+    }
+    .r3{
+        font-size: 20px;
+    }
+    ul>li>a{
+        font-size: 20px;
+    }
+}
